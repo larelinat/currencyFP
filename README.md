@@ -5,7 +5,7 @@
 
 ## Краткое описание
 
-- Использованы **React** + **TypeScript** + **Vite**, иконки - **Lucide**, запросы - **Axios**, график - **Charts.js**
+- Использованы **React** + **TypeScript** + **Vite**, иконки - **Lucide**, запросы - **Axios**, график - **Charts.js**, анимация - **React Spring**.
 - Линтеры **ESLint + Prettier**, **StyleLint**
 - Тесты на **Vitest** с **JSDOM**
 - Состояние управляется через **React Context API** и хуки 
