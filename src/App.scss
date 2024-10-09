@@ -1,0 +1,26 @@
+.app {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "convert price"
+                       "history history";
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 1024px) {
+    grid-template-areas: "convert"
+                         "price"
+                         "history";
+    grid-template-columns: 1fr;
+  }
+
+  .convert {
+    grid-area: convert;
+  }
+
+  .history {
+    grid-area: history;
+  }
+
+  .price {
+    grid-area: price;
+  }
+}

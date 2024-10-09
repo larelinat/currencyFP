@@ -1,0 +1,17 @@
+{ "extends": [
+  "stylelint-prettier/recommended",
+  "stylelint-config-rational-order",
+  "stylelint-prettier/recommended"
+],
+  "plugins": ["stylelint-order", "stylelint-scss"],
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-order": [
+      "width",
+      "height"
+    ]
+  }
+}

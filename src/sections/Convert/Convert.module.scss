@@ -1,0 +1,14 @@
+.convert {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+
+  .currency {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0;
+  }
+}

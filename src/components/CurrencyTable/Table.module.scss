@@ -1,0 +1,28 @@
+@import 'style/variables';
+.table {
+  display: flex;
+  border: none;
+  .row {
+    display: flex;
+    flex-direction: column;
+    .item {
+      padding: 5px 5px;
+      font-size: 12px;
+      text-align: left;
+      vertical-align: top;
+      background: $background-color;
+      border: 1px solid #ddd;
+      @media(max-width: 500px) {
+        padding: 3px 2px;
+        font-size: 11px;
+      }
+
+      &.headItem {
+        color: $background-color;
+        background: $primary-color;
+        border-color: transparent;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,14 @@
+@use "sass:color";
+$primary-color: #3498db;
+$primary-flat-color: color.adjust($primary-color, $lightness: 40%);
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+$light-text-color: #7f8c8d;
+$border-color: #bdc3c7;
+$success-color: #2ecc71;
+$warning-color: #f1c40f;
+$error-color: #e74c3c;
+$content-background-color: color.adjust($primary-color, $lightness: 40%);
+$disabled-color: #bdc3c7;
